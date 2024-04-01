@@ -127,7 +127,7 @@
   <div class="container is-max-desktop">
     <p>
       <strong>TL;DR:</strong> 
-      We proposed an analytical method that simplifies motion estimation under noisy conditions by converting the motion landscapes from non-convex to convex. Our algorithm allows for more accurate earth mapping and observations using data from the International Space Station using an event camera. 
+      We proposed an analytical solution that addresses the problem of motion estimation under extremely noisy conditions. The solution ensures that the motion landscape is always convex containing the true motion of the events. Our algorithm allows for more accurate earth mapping and observations using data from the International Space Station using an event camera. 
     </p>
   </div>
 </section>
@@ -208,21 +208,21 @@
 
 <section class="hero is-small is-light">
 
-  <h2 class="title">Slide to compare the motion landscapes before and after</h2>
+  <h2 class="title" style="text-align:center">Slide to compare the motion landscapes with CMAX and our analytical solution</h2>
   <div class="mainSection">
     <div id="one" class="bal-container">
         <div class="bal-after">
-            <img src="static/images/new_brittany_after.png">
+            <img src="static/images/FN034HRTEgyptB_NADIR_-30_30_200_variance.png">
             <div class="bal-afterPosition afterLabel">
-                After
+                Analytical solution
             </div>
         </div>
   
         <div class="bal-before">
             <div class="bal-before-inset">
-                <img src="static/images/new_brittany_before.png">
+                <img src="static/images/FN034HRTEgyptB_NADIR_-30_30_200_variance.png">
                 <div class="bal-beforePosition beforeLabel">
-                    Before
+                    CMax
                 </div>
             </div>
         </div>
@@ -236,17 +236,17 @@
   
     <div id="two" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/new_mexico_after.png">
+        <img src="static/images/20220217_Houston_IAH_1_2022-02-17_20-28-02_NADIR_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/new_mexico_before.png">
+            <img src="static/images/20220217_Houston_IAH_1_2022-02-17_20-28-02_NADIR_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>
@@ -259,17 +259,17 @@
   
     <div id="three" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/new_egypt_after.png">
+        <img src="static/images/20220201_DIA_201410_2022-02-01_20-15-58_NADIR_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/new_egypt_before.png">
+            <img src="static/images/20220201_DIA_201410_2022-02-01_20-15-58_NADIR_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>
@@ -286,17 +286,17 @@
   <div class="mainSection">
     <div id="four" class="bal-container">
         <div class="bal-after">
-            <img src="static/images/52_54_wp_After.png">
+            <img src="static/images/20220127_Biscay_Spain_Med_211912_2_2022-01-27_21-53-58_NADIR_-30_30_200_variance.png">
             <div class="bal-afterPosition afterLabel">
-                After
+              Analytical solution
             </div>
         </div>
   
         <div class="bal-before">
             <div class="bal-before-inset">
-                <img src="static/images/52_54_wp_Before.png">
+                <img src="static/images/20220127_Biscay_Spain_Med_211912_2_2022-01-27_21-53-58_NADIR_-30_30_200_variance.png">
                 <div class="bal-beforePosition beforeLabel">
-                    Before
+                  CMax
                 </div>
             </div>
         </div>
@@ -310,17 +310,17 @@
   
     <div id="five" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/53_22_cut_wp_After.png">
+        <img src="static/images/20220125_New_Zealand_220728_2022-01-25_22-09-42_NADIR_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/53_22_cut_wp_Before.png">
+            <img src="static/images/20220125_New_Zealand_220728_2022-01-25_22-09-42_NADIR_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>
@@ -333,17 +333,17 @@
   
     <div id="six" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/14_21_cut_wp_After.png">
+        <img src="static/images/20220125_Mexican_Coast_205735_2022-01-25_20~58~52_NADIR.h5_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/14_21_cut_wp_Before.png">
+            <img src="static/images/20220125_Mexican_Coast_205735_2022-01-25_20~58~52_NADIR.h5_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>
@@ -361,17 +361,17 @@
   <div class="mainSection">
     <div id="seven" class="bal-container">
         <div class="bal-after">
-            <img src="static/images/30_21_cut5_wp_After.png">
+            <img src="static/images/20220125_Brittany_211945_2022-01-25_21-21-18_NADIR_-30_30_200_variance.png">
             <div class="bal-afterPosition afterLabel">
-                After
+              Analytical solution
             </div>
         </div>
   
         <div class="bal-before">
             <div class="bal-before-inset">
-                <img src="static/images/30_21_cut5_wp_Before.png">
+                <img src="static/images/20220125_Brittany_211945_2022-01-25_21-21-18_NADIR_-30_30_200_variance.png">
                 <div class="bal-beforePosition beforeLabel">
-                    Before
+                  CMax
                 </div>
             </div>
         </div>
@@ -385,17 +385,17 @@
   
     <div id="eight" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/30_21_cut2_wp_After.png">
+        <img src="static/images/20220124_201028_Panama_2022-01-24_20_12_11_NADIR.h5_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/30_21_cut2_wp_Before.png">
+            <img src="static/images/20220124_201028_Panama_2022-01-24_20_12_11_NADIR.h5_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>
@@ -408,17 +408,17 @@
   
     <div id="nine" class="bal-container">
       <div class="bal-after">
-        <img src="static/images/highway_wp_After.png">
+        <img src="static/images/20220121a_Salvador_2022-01-21_20~58~34_NADIR.h5_-30_30_200_variance.png">
         <div class="bal-afterPosition afterLabel">
-            After
+          Analytical solution
         </div>
     </div>
   
     <div class="bal-before">
         <div class="bal-before-inset">
-            <img src="static/images/highway_wp_Before.png">
+            <img src="static/images/20220121a_Salvador_2022-01-21_20~58~34_NADIR.h5_-30_30_200_variance.png">
             <div class="bal-beforePosition beforeLabel">
-                Before
+              CMax
             </div>
         </div>
     </div>

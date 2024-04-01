@@ -2,6 +2,12 @@
 
 Access the project page: https://samiarja.github.io/earthobservation/
 
+<!-- panama (done) - houston (done) - el salvador - spain - washington -->
+
+
+<!-- A section to show the final maps before and after
+An interactive section to show the 2D solution on the warped image and landscape -->
+
 
 <!-- # Academic Project Page Template
 This is an academic paper project page template.
