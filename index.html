@@ -127,7 +127,7 @@
   <div class="container is-max-desktop">
     <p>
       <strong>TL;DR:</strong> 
-      We proposed an analytical solution that addresses the problem of motion estimation under extremely noisy conditions. The solution ensures that the motion landscape is always convex containing the true motion of the events. Our algorithm allows for more accurate earth mapping and observations using data from the International Space Station using an event camera. 
+      We proposed an analytical solution that addresses the problem of motion estimation under extremely noisy conditions. Our method removes the peak in the landscape caused by the high density noise and only keep the peak produced by the motion in the scene without prior knowledge of the motion. This allows for more accurate earth mapping and observations using data from the International Space Station using an event camera. 
     </p>
   </div>
 </section>
@@ -192,14 +192,14 @@
       <!-- Image and Video Column -->
       <div class="column is-half">
         <div class="image-container" style="text-align:center;">
-          <img src="static/images/abstract_teaser.png" alt="Image ALT TEXT" style="max-width: 100%; height: auto;; margin-top: 110px;">
-          
+          <img src="static/images/abstract_teaser.png" alt="Image ALT TEXT" style="max-width: 100%; height: auto;; margin-top: 20px;">
+          <img src="static/videos/suez_canal_issgif.gif" alt="GIF ALT TEXT" style="max-width: 100%; height: auto;"/>
         </div>
       </div>
     </div>
     <!-- Image below all content -->
     <div class="image-container" style="text-align:center; margin-top:20px;">
-      <img src="static/images/network.png" alt="Event Camera on Drone" style="width: 100%; height:auto;">
+      <img src="static/videos/density_invariant_CMX.gif" alt="Event Camera on Drone" style="width: 100%; height:auto;">
     </div>
   </div>
 </section>
@@ -209,6 +209,8 @@
 <section class="hero is-small is-light">
 
   <h2 class="title" style="text-align:center">Slide to compare the motion landscapes with CMAX and our analytical solution</h2>
+  <h2 class="title" style="text-align:center">The landscape  is bounded between [-30px/s,30px/s] across vx and vy with 200 steps</h2>
+
   <div class="mainSection">
     <div id="one" class="bal-container">
         <div class="bal-after">
@@ -286,7 +288,7 @@
   <div class="mainSection">
     <div id="four" class="bal-container">
         <div class="bal-after">
-            <img src="static/images/20220127_Biscay_Spain_Med_211912_2_2022-01-27_21-53-58_NADIR_-30_30_200_weighted_variance.png">
+            <img src="static/images/20230119_4_UK_Nadir_Night_2023-01-19_20~25~10_NADIR_-30_30_200_weighted_variance.png">
             <div class="bal-afterPosition afterLabel">
               Analytical solution
             </div>
@@ -294,7 +296,7 @@
   
         <div class="bal-before">
             <div class="bal-before-inset">
-                <img src="static/images/20220127_Biscay_Spain_Med_211912_2_2022-01-27_21-53-58_NADIR_-30_30_200_variance.png">
+                <img src="static/images/20230119_4_UK_Nadir_Night_2023-01-19_20~25~10_NADIR_-30_30_200_variance.png">
                 <div class="bal-beforePosition beforeLabel">
                   CMax
                 </div>
